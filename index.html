@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Academic information</legend>
+        <br />
+        <label for="degree">Degree </label>
+        <select name="degree" id="degree">
+          <option value="BA">Bachelor of Art</option>
+          <option value="BS">Bachelor of Science</option>
+          <option value="MBA" selected>
+            Master of Business Administration
+          </option>
+        </select>
+        <br /><br />
+        <label for="studentID">Student ID</label>
+        <input type="text" name="Student ID" />
+        <br /><br />
+        <label for="classes">Classes Attended</label>
+        <select multiple name="classes" id="classes">
+          <option value="1">Geography</option>
+          <option value="2">Mathematics</option>
+          <option value="3">English</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Personal Details</legend>
+        <br />
+        <label for="fname">First Name </label>
+        <input
+          type="text"
+          name="FirstName"
+          placeholder="Type the First Name"
+          id="fname"
+        />
+        <br /><br />
+        <label for="lname">Last Name </label>
+        <input
+          type="text"
+          name="LastName"
+          placeholder="Type the Last Name"
+          id="lname"
+        />
+        <br /><br />
+        Gender
+        <input type="radio" name="gender" value="f" id="gf" />
+        <label for="gf">Female</label>
+        <input type="radio" name="gender" value="m" id="gm" />
+        <label for="gm">Male</label>
+        <br /><br />
+        <label for="emails">Email </label>
+        <input type="email" id="emails" name="email" />
+      </fieldset>
+      <br />
+      <textarea name="terms" cols="50" rows="10" readonly>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+    dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+    vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+    qui dolorem eum fugiat quo voluptas nulla pariatur?
+      </textarea>
+
+      <br /><br />
+      <input type="submit" name="Submit" value="Send form" />
+      <input type="reset" name="Reset" value="Clear Form" />
+    </form>
+  </body>
+</html>
